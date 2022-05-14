@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\cmd_builders">
+      <UniqueIdentifier>{b2519443-4534-4a38-bb21-4db96f16e679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\commands">
+      <UniqueIdentifier>{95cc7181-cc69-48cf-80f2-3c9a14232014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logger">
+      <UniqueIdentifier>{7b793a4d-4f27-4c58-9921-e78422dc1ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\parsers">
+      <UniqueIdentifier>{811f7bcc-4070-4010-a0e5-0759cd23ae5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add_builder.hpp">
+      <Filter>Header Files\cmd_builders</Filter>
+    </ClInclude>
+    <ClInclude Include="add_sq_builder.h">
+      <Filter>Header Files\cmd_builders</Filter>
+    </ClInclude>
+    <ClInclude Include="div_builder.hpp">
+      <Filter>Header Files\cmd_builders</Filter>
+    </ClInclude>
+    <ClInclude Include="mult_builder.hpp">
+      <Filter>Header Files\cmd_builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sq_add_builder.hpp">
+      <Filter>Header Files\cmd_builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sub_builder.hpp">
+      <Filter>Header Files\cmd_builders</Filter>
+    </ClInclude>
+    <ClInclude Include="command_builder.hpp">
+      <Filter>Header Files\cmd_builders</Filter>
+    </ClInclude>
+    <ClInclude Include="add_command.hpp">
+      <Filter>Header Files\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="add_sq_command.hpp">
+      <Filter>Header Files\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="command.hpp">
+      <Filter>Header Files\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="div_command.hpp">
+      <Filter>Header Files\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="mult_command.hpp">
+      <Filter>Header Files\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="sq_add_command.hpp">
+      <Filter>Header Files\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="sub_command.hpp">
+      <Filter>Header Files\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.hpp">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="logger_details.hpp">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="logger_factory.hpp">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="command_parser.hpp">
+      <Filter>Header Files\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="config_parser.hpp">
+      <Filter>Header Files\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation_app.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="execution_timer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_pool.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="command_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

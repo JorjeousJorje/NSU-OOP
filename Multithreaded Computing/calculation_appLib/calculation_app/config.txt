@@ -1,0 +1,11 @@
+[Logger]
+log=true
+type=std_out
+color=true
+filename=
+log_level=info
+
+[App]
+input directory=commands10
+output file=output.txt
+threads=5

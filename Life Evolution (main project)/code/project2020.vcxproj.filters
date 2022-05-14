@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Particles Shapes">
+      <UniqueIdentifier>{a96d2f94-e300-48b9-98f8-1601a40fe9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles Factory">
+      <UniqueIdentifier>{9e69743f-450c-4f5d-8f93-c1e3b609916a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{ecf5e07e-2ef4-4df7-a7c1-73e1cd8adbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particles Shapes">
+      <UniqueIdentifier>{3511407e-8640-40e5-8149-10b2e22e0d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles Shapes\Parameters Structure">
+      <UniqueIdentifier>{bce0c727-8fe8-4fae-9c53-4b17d2dc7e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Randomizer">
+      <UniqueIdentifier>{be0e8686-1aca-46f5-a09a-8df3dc7ba84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles Shapes\Parameters Structure\Random Parameter Builder">
+      <UniqueIdentifier>{86e380b5-5067-4b03-ae27-a5d72ab238bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Details">
+      <UniqueIdentifier>{97b48ec5-18af-4336-ac4a-b98e0f1088db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{8f29953a-a290-45a7-8f83-6e6d5f4c5a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Thread Pool">
+      <UniqueIdentifier>{14d9ee57-f9ac-4b25-9b93-b824e4396c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particle Types">
+      <UniqueIdentifier>{ca64fa57-f26b-410c-82e6-b5434bb5c728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Universe">
+      <UniqueIdentifier>{2a86eb80-8664-4713-b328-0a53bc35af9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics\Forces">
+      <UniqueIdentifier>{a541270f-e6a4-4ed0-b16c-69e17ef2553f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Universe">
+      <UniqueIdentifier>{6ce0d747-4da9-43bb-aa41-5965bbf57bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Universe\Universe Patterns">
+      <UniqueIdentifier>{d0440f0e-9b8f-4768-a189-6f2c8850292e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Timer">
+      <UniqueIdentifier>{f8c2d6fe-96a3-48a0-b739-a5e6f774287f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{f6226427-72cb-4d90-905f-1ebcc92b7ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Randomizer">
+      <UniqueIdentifier>{097f22c1-4ff6-4303-bf57-0bca9739f8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{74b02807-8942-4ff8-8280-c0ccd8db3798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Forces">
+      <UniqueIdentifier>{beabf1a6-9772-4595-9464-28f3d82f865a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_particle.cpp">
+      <Filter>Source Files\Particles Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Source Files\Particles Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="worker.cpp">
+      <Filter>Header Files\Thread Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="task_dispatcher.cpp">
+      <Filter>Header Files\Thread Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="universe.cpp">
+      <Filter>Source Files\Universe</Filter>
+    </ClCompile>
+    <ClCompile Include="main_window.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="generator.cpp">
+      <Filter>Source Files\Randomizer</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_physics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_physics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="flat_force.cpp">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_force.cpp">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="event_manager.cpp">
+      <Filter>Source Files\Universe</Filter>
+    </ClCompile>
+    <ClCompile Include="event_mediator.cpp">
+      <Filter>Source Files\Universe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="circle_particle.hpp">
+      <Filter>Header Files\Particles Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.hpp">
+      <Filter>Header Files\Particles Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="main_window.hpp">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="application.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particles_factory.hpp">
+      <Filter>Header Files\Particles Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_particles_factory.hpp">
+      <Filter>Header Files\Particles Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_physics.hpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_physics.hpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_parameters.hpp">
+      <Filter>Header Files\Particles Shapes\Parameters Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_particle_parameters.hpp">
+      <Filter>Header Files\Particles Shapes\Parameters Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_randomizer.hpp">
+      <Filter>Header Files\Randomizer</Filter>
+    </ClInclude>
+    <ClInclude Include="uniform_randomizer.hpp">
+      <Filter>Header Files\Randomizer</Filter>
+    </ClInclude>
+    <ClInclude Include="generator.hpp">
+      <Filter>Header Files\Randomizer</Filter>
+    </ClInclude>
+    <ClInclude Include="rnd_param_builder.hpp">
+      <Filter>Header Files\Particles Shapes\Parameters Structure\Random Parameter Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_rnd_param_builder.hpp">
+      <Filter>Header Files\Particles Shapes\Parameters Structure\Random Parameter Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="universe_randomizer.hpp">
+      <Filter>Header Files\Randomizer</Filter>
+    </ClInclude>
+    <ClInclude Include="attributes_holder.hpp">
+      <Filter>Header Files\Particle Types</Filter>
+    </ClInclude>
+    <ClInclude Include="square_matrix.hpp">
+      <Filter>Header Files\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="hsv_converter.hpp">
+      <Filter>Header Files\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="task.hpp">
+      <Filter>Header Files\Thread Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="worker.hpp">
+      <Filter>Header Files\Thread Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="task_dispather.hpp">
+      <Filter>Header Files\Thread Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="flat_force.hpp">
+      <Filter>Header Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="physical_force.hpp">
+      <Filter>Header Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_force.hpp">
+      <Filter>Header Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="forces_header.hpp">
+      <Filter>Header Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2f.hpp">
+      <Filter>Header Files\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="universe.hpp">
+      <Filter>Header Files\Universe</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.hpp">
+      <Filter>Header Files\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="event_manager.hpp">
+      <Filter>Header Files\Universe</Filter>
+    </ClInclude>
+    <ClInclude Include="event_mediator.hpp">
+      <Filter>Header Files\Universe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

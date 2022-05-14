@@ -1,0 +1,23 @@
+[Logger]
+log=... 	- Enable logging. 
+		  If not "true" or "false", std_out logger is set with logging level "info". Items below won't be taking into account.
+		  If "false" is set, no logging. Items below won't be taking into account.
+type=... 	- Defines logger type. List of available loggers is in "available loggers.txt"
+color=... 	- Only for console logger. If not "true", text won't be colored.
+filename=... 	- Only for file logger. Output log file.
+		  If this item is empty, default file is set - "default_log_file.txt"
+log_level=... 	- Defines logging level.
+		  Available levels: 
+			1) all - logger displays everything
+			2) debug
+			3) info
+			4) warning
+			5) error
+			6) fatal
+			7) empty - no logging. ("log=false" for no logging)
+
+[App]
+input directory=... 	- Defines input directory. 		Only directory is allowed.
+output file=... 	- Defines output file for results. 	Only regular file is allowed.
+threads=... 		- Defines number of threads. 		Only numbers is allowed.
+

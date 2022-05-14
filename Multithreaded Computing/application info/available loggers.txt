@@ -1,0 +1,4 @@
+1) std_out 	- standart out
+2) time_std_out - standart out with timestamp
+3) file 	- fileoutput 
+4) time_file 	- fileoutput with timestamp

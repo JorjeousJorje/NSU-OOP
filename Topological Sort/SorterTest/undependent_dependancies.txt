@@ -1,0 +1,11 @@
+go to the shop = sit in a car, start moving, to drive, stop near the shop
+
+sit in a car = open driver's door, sit on the seat, close the door, fasten belt
+
+start moving = sit on the seat, start the engine, breaks, release the handbrake, turn on the turn signal, loose the breaks, step on the gas
+
+stop near the shop = to drive, see the shop, breaks, tighten the handbrake
+
+go to the beach = stand up, move your body to the beach
+
+visit your friend = make a call to your friend, choose the time for meeting, meet your friend

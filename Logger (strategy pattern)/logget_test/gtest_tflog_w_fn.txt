@@ -1,0 +1,5 @@
+[10:36:47] FATAL: (test.cpp, 164) file_ofs, fatal message
+[10:36:47] ERROR: (test.cpp, 166) file_ofs, error message
+[10:36:47] WARNING: (test.cpp, 168) file_ofs, warning message
+[10:36:47] INFO: (test.cpp, 170) file_ofs, info message
+[10:36:47] DEBUG: (test.cpp, 172) file_ofs, debug message

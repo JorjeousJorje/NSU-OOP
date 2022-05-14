@@ -1,0 +1,5 @@
+FATAL: file_ofs, fatal message
+ERROR: file_ofs, error message
+WARNING: file_ofs, warning message
+INFO: file_ofs, info message
+DEBUG: file_ofs, debug message

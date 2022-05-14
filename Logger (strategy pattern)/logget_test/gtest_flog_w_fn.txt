@@ -1,0 +1,5 @@
+FATAL: (test.cpp, 116) file_ofs, fatal message
+ERROR: (test.cpp, 118) file_ofs, error message
+WARNING: (test.cpp, 120) file_ofs, warning message
+INFO: (test.cpp, 122) file_ofs, info message
+DEBUG: (test.cpp, 124) file_ofs, debug message

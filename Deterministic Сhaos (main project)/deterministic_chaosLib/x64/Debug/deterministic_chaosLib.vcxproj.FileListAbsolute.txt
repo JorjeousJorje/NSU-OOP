@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\Final_Project_da\deterministic_chaos\x64\Debug\deterministic_chaosLib.pdb
+C:\Users\User\Desktop\Final_Project_da\deterministic_chaos\deterministic_chaosLib\x64\Debug\deterministic_chaosLib.pdb

@@ -1,0 +1,14 @@
+Controls:
+         'B' - (Balanced)
+         'D' - (Diversity)
+         'G' - (Gliders)
+         'H' - (Homogeneity)
+         'L' - (Large Clusters)
+         'M' - (Medium Clusters)
+         'Q' - (Quiescence)
+         'S' - (Small Clusters)
+
+
+
+
+
